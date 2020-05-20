@@ -1,9 +1,9 @@
 package eu.edu.npu.lab06.task01;
 
-public class Application implements GetName{
+public class Person implements GetName{
     private String authorName;
 
-    public Application(String authorName) {
+    public Person(String authorName) {
         this.authorName = authorName;
     }
 
